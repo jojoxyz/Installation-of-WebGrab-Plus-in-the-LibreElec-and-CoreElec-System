@@ -36,3 +36,30 @@ All you have to do is use "license enforcement" in the login line. "f" Then when
 Autostart is set in the "wg3-cron" file
 
 4.  Restart Docker.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+If you want to have folders in another place, add two more lines.
+
+This will create a "wg ++" folder in the "storage" folder with two more "config" folders with configuration files and "data" where the guide.xml will be stored. In WebGrab ++. Config.xml, leave the repository path set as is.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+docker run -d
+           --name=webgrabplus
+           --hostname="Your WebGrab+Plus registered name"
+           --mac-address="MAC address of your (already) registered PC at WebGrab+Plus"
+           -e PUID=0
+           -e PGID=0
+           -e TZ=Europe/Amsterdam
+           --restart unless-stopped
+           -v "/storage/wg++/config/":/config \
+           -v "/storage/wg++/data/":/data \
+           linuxserver/webgrabplus:3.2.3
+------------------------------------------------------------------------------------------------------------------------------------------------                    
+You can change the time zone according to your location. It must be spelled correctly!
+Check the correct zone name at:
+https://en.wikipedia.org/wiki/List_of_tz...time_zones          
+           
+
+
+
+
