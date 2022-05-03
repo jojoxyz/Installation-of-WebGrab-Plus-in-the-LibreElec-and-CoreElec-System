@@ -77,3 +77,22 @@ You can change the time zone according to your location. It must be spelled corr
 Check the correct zone name at:
 https://en.wikipedia.org/wiki/List_of_tz...time_zones 
 
+
+-or-
+
+# Install Script
+
+Edit the information in the script
+
+ --hostname="Your WebGrab+Plus registered name" \
+ --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
+ 
+Copy to "storage" 
+
+Create an executable file:
+     
+     chmod +x WebGrabPlus_install
+     
+   Run script:
+     
+     ./WebGrabPlus_install
