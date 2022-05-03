@@ -31,17 +31,17 @@ Code:
 Install:
 
 3.  There are two other folders in the volumes folder. They have a long name. (A mixture of letters and numbers) 
-Both folders contain one folder  "_data"
-One is empty (automatically there save guide.xml) and in the second are the WebGrab+Plus configuration files.
+    Both folders contain one folder  "_data"
+    One is empty (automatically there save guide.xml) and in the second are the WebGrab+Plus configuration files.
 
-/storage/.kodi/userdata/addon_data/service.system.docker/docker/volumes/9a861848d91ffaae41779e1196a9e308d3c0b044fbe7fab240b22dde5bec8804/_data/
-That folder name is unique and different for everyone!
+    /storage/.kodi/userdata/addon_data/service.system.docker/docker/volumes/9a861848d91ffaae41779e1196a9e308d3c0b044fbe7fab240b22dde5bec8804/_data/
+    That folder name is unique and different for everyone!
 
-How to configure "WebGrab ++. Config.xml" I will not deal with here. I guess that's clear. 
+    How to configure "WebGrab ++. Config.xml" I will not deal with here. I guess that's clear. 
 
-All you have to do is use "license enforcement" in the login line. "f" Then when it clicks, remove the letter!
+    All you have to do is use "license enforcement" in the login line. "f" Then when it clicks, remove the letter!
 
-Autostart is set in the "wg3-cron" file
+    Autostart is set in the "wg3-cron" file
 
 4.  Restart Docker.
 
