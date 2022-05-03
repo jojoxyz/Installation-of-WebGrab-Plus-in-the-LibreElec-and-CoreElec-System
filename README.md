@@ -13,8 +13,8 @@ Copy the entire code and paste it into the terminal. WebGrab+Plus is downloaded 
 Code:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
->
-docker run -d \
+
+>docker run -d \
   --name=webgrabplus \
   --hostname="Your WebGrab+Plus registered name" \
   --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
@@ -23,7 +23,7 @@ docker run -d \
   -e TZ=Europe/Amsterdam \
   --restart unless-stopped \
   linuxserver/webgrabplus:3.2.3
->
+
  ---------------------------------------------------------------------------------------------------------------------------------------------- 
   
 Replace Quotes and everything in them with your data.
