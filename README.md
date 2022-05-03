@@ -51,13 +51,13 @@ This will create a "wg ++" folder in the "storage" folder with two more "config"
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 docker run -d
-           --name=webgrabplus
-           --hostname="Your WebGrab+Plus registered name"
-           --mac-address="MAC address of your (already) registered PC at WebGrab+Plus"
-           -e PUID=0
-           -e PGID=0
-           -e TZ=Europe/Amsterdam
-           --restart unless-stopped
+           --name=webgrabplus \
+           --hostname="Your WebGrab+Plus registered name" \
+           --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
+           -e PUID=0 \
+           -e PGID=0 \
+           -e TZ=Europe/Amsterdam \
+           --restart unless-stopped \
            -v "/storage/wg++/config/":/config \
            -v "/storage/wg++/data/":/data \
            linuxserver/webgrabplus:3.2.3
