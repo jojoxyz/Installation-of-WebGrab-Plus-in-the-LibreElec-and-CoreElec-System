@@ -47,8 +47,9 @@ Autostart is set in the "wg3-cron" file
 
 
 
-
+-
 If you want to have folders in another place, add two more lines.
+-
 
 This will create a "wg ++" folder in the "storage" folder with two more "config" folders with configuration files and "data" where the guide.xml will be stored. In WebGrab ++. Config.xml, leave the repository path set as is.
 
