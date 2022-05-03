@@ -11,6 +11,7 @@ Open the terminal ssh:
 Copy the entire code and paste it into the terminal. WebGrab+Plus is downloaded and configured automatically.
  
 Code:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 docker run -d \
@@ -52,6 +53,7 @@ If you want to have folders in another place, add two more lines.
 This will create a "wg ++" folder in the "storage" folder with two more "config" folders with configuration files and "data" where the guide.xml will be stored. In WebGrab ++. Config.xml, leave the repository path set as is.
 
 Code:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 docker run -d \
