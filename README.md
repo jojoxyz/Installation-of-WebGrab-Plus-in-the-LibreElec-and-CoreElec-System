@@ -57,7 +57,7 @@ Code:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-docker run -d \
+>docker run -d \
   --name=webgrabplus \
   --hostname="Your WebGrab+Plus registered name" \
   --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
