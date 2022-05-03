@@ -87,6 +87,8 @@ Edit the information in the script
     --hostname="Your WebGrab+Plus registered name" \
     --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
  
+Save and EXIT.
+ 
 Copy to "storage" 
 
 Create an executable file:
