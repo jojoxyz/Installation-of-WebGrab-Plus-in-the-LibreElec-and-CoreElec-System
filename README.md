@@ -2,7 +2,9 @@
 
 
 1.  Install Addon Docker
-Install from repository/All repositories/Services    DOCKER
+Install from 
+    repository / All repositories / Services    DOCKER
+
 I wrote them all because some use LibreElec and others use CoreElec.
 
     Open the terminal ssh:
