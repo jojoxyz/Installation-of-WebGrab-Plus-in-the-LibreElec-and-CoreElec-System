@@ -84,8 +84,8 @@ https://en.wikipedia.org/wiki/List_of_tz...time_zones
 
 Edit the information in the script
 
- --hostname="Your WebGrab+Plus registered name" \
- --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
+    --hostname="Your WebGrab+Plus registered name" \
+    --mac-address="MAC address of your (already) registered PC at WebGrab+Plus" \
  
 Copy to "storage" 
 
