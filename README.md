@@ -98,3 +98,34 @@ Create an executable file:
    Run script:
      
      ./WebGrabPlus_install
+
+# WebGrab + Plus (LinuxServer.io)
+
+You can also install WebGrab + Plus (LinuxServer.io) from the "LinuxServer.io's Docker Add-ons" Repository.
+
+However, you must first change the version from "latest" to "3.2.3"
+
+In the folder
+
+        /storage/.kodi/addons/packages/
+
+You need to edit one script in
+
+     docker.linuxserver.webgrabplus-2.1.0.zip
+
+in folder "bin" is script 
+
+    docker.linuxserver.webgrabplus
+
+in line 24 - version needs to be added. ": 3.2.3" 
+
+     ...........  docker pull $DOCKERIMAGE":3.2.3 ..........
+
+and
+
+in the last line 40 it should be changed from 
+
+    :latest  to  :3.2.3 
+
+That is all. Then it will install version 3.2.3 and not the last one. 4.2.2 which has a problem graduating from some sites.
+
