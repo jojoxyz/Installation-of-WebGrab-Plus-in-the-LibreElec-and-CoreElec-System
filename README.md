@@ -127,5 +127,5 @@ in the last line 40 it should be changed from
 
     :latest  to  :3.2.3 
 
-That is all. Then it will install version 3.2.3 and not the last one. 4.2.2 which has a problem graduating from some sites.
+That is all. Then it will install version 3.2.3 and not the last one. 4.2.2 which has a problem grabgrab from some sites.
 
