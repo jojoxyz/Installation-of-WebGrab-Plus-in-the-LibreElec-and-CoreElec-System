@@ -129,3 +129,9 @@ in the last line 40 it should be changed from
 
 That is all. Then it will install version 3.2.3 and not the last one. 4.2.2 which has a problem grabgrab from some sites.
 
+
+# The issue with 4.x versions has been fix in V4.2.2.5 if u prefer to use dotnet
+
+
+https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/eval...
+
